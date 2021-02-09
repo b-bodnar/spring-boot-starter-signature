@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "demo.signature",
+      "type": "com.github.bbodnar.signature.starter.autoconfigure.SignatureProperties",
+      "sourceType": "com.github.bbodnar.signature.starter.autoconfigure.SignatureProperties"
+    },
+    {
+      "name": "demo.signature.extra",
+      "type": "com.github.bbodnar.signature.starter.autoconfigure.SignatureProperties$Extra",
+      "sourceType": "com.github.bbodnar.signature.starter.autoconfigure.SignatureProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "demo.signature.enable",
+      "type": "java.lang.Boolean",
+      "description": "Whether signature outo-configuration enable or not? ",
+      "defaultValue": true
+    },
+    {
+      "name": "demo.signature.extra.retention-period",
+      "type": "java.time.Duration",
+      "description": "Retention period for email.",
+      "sourceType": "com.github.bbodnar.signature.starter.autoconfigure.SignatureProperties$Extra",
+      "defaultValue": "5m"
+    },
+    {
+      "name": "demo.signature.username",
+      "type": "java.lang.String",
+      "description": "Username for username signature",
+      "sourceType": "com.github.bbodnar.signature.starter.autoconfigure.SignatureProperties",
+      "defaultValue": "NONAME"
+    }
+  ],
+  "hints": []
+}
