@@ -25,9 +25,10 @@ public class SignatureController {
                 username, retentionPeriod);
     }
 
-
     @GetMapping("/api/v1/signature")
     public String getSignature() {
-        return "Best regards,\n" + username + "\n\nEmail will be deleted after: " + retentionPeriod;
+        return "Best regards,\n" + username
+                + "\n\nEmail will be deleted after: "
+                + retentionPeriod;
     }
 }
