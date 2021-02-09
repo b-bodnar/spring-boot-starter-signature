@@ -1,0 +1,10 @@
+{
+  "properties": [
+    {
+      "name": "demo.signature.enable",
+      "type": "java.lang.Boolean",
+      "defaultValue": true,
+      "description": "Whether signature outo-configuration enable or not? "
+    }
+  ]
+}
