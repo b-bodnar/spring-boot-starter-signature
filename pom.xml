@@ -9,7 +9,7 @@
         <version>2.4.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.github.bbodnar.springbootstarner.signature</groupId>
+    <groupId>com.github.b-bodnar.springbootstarner.signature</groupId>
     <artifactId>springboot-starter-signature</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Spring Boot starter signature</name>
